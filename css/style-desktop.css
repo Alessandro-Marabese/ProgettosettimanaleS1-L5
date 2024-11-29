@@ -22,26 +22,26 @@ body {
     background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40rem;
+    height: 60rem;
     text-align: center;
     align-items: center;
 }
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 3.5em;
     color: #25a2c3;
-    padding-top: 1.5em;
-    padding-left: 3.2em;
+    padding-top: 4em;
     line-height: 1.5;
-    width: 50%;
+    width: 100%;
+    margin-top: 0;
 }
 #p-header {
-    padding-top: 1.5em;
-    padding-left: 2em;
-    padding-right: 2em;
-    height: 5em;
-    font-size: 1.3em;
+    padding-left: 34em;
+    padding-right: 34em;
+    padding-top: 1em;
+    height: 4em;
+    font-size: 1.7em;
     height: 7em;
 }
 button {
@@ -49,35 +49,42 @@ button {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     color: white;
-    height: 3em;
-    width: 10em;
+    height: 4em;
+    width: 11em;
     border-radius: 5%;
     border-color: #f04c2f;
 }
 main {
     
-    font-size: 1.3em;
+    font-size: 1.4em;
     text-align: center;
-    padding-top: 2em;
     padding-bottom: 2em;
+    align-items: center;
 }
 article {
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
+    text-align: left;
+    height: 30em;
+    padding-left: 70em;
+    padding-right: 7em;
+    padding-bottom: 8em;
+    padding-top: 8em;
 }
 h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
+    font-size: 1.4em;
     line-height: 1.5;
     color: #25a2c3;
     padding: 1em 0;
 }
 #notebook {
-    width: 60%;
-    border-radius: 50%;
-    margin: auto;
-    padding-top: 1.5em;
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin-left: 30em;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    border-radius: 70%;
 }
 section {
     background-color: #e22d0e;
@@ -90,8 +97,9 @@ h3 {
     line-height: 1.5;
     color: white;
     font-size: 1.7em;
-    padding-top: 1.7em;
+    padding-top: 2em;
     padding-bottom: 1.7em;
+    text-align: center;
 }
 #test-p {
     font-size: 1em;
@@ -110,18 +118,24 @@ span {
     font-size: 0.8em;
 }
 aside {
-    padding: 3em 2em;
+    padding: 5em 5em;
 }
 
 .aside-div {
+    display: inline-block;
     padding-bottom: 2em;
     font-size: 1.3em;
     margin-top: 1em;
     margin-bottom: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     border: 1px solid #dee1e3;
+    height: 30%;
+    width: 30%;
 }
 .aside-img {
     width: 100%;
+    height: 25em;
 }
 h4 {
     font-family: "Montserrat", sans-serif;
@@ -145,9 +159,14 @@ footer {
     padding-bottom: 4em;
 }
 address {
-    padding: 1.5em 4em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     color:#c8e7f0;
     font-size: 1.3em;
+    width: 15%;
+    margin: auto;
+    text-align: left;
+    margin-left: 68em;
 }
 address a {
     color: #c8e7f0;
@@ -157,16 +176,16 @@ footer p {
     padding: 0 9em;
     padding-top: 1em;
     border-top: 1px solid white;
+    font-size: 1.3em;
 }
 #footer-head {
     font-family: "Montserrat", sans-serif;
-    font-size: 2em;
+    font-size: 4em;
     text-align: center;
     padding: 0;
     padding-top: 1em;
     color: white;
     font-weight: bold;
-    font-size: 2.3em;
     line-height: 1.5;
     
 }
