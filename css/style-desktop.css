@@ -12,11 +12,11 @@ body {
     width: 100%;
 }
 #logo-image {
-    padding-left: 12em;
-    padding-top: 4em;
-    padding-bottom: 4em;
-    width: 40%;
-    height: 40%;
+    width: 17%;
+    height: 17%;
+    padding-left: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 #header-title {
     background-image: url(../images/banner.jpg);
@@ -59,6 +59,7 @@ main {
     font-size: 1.3em;
     text-align: center;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 article {
     padding-left: 2em;
@@ -81,7 +82,7 @@ h2 {
 section {
     background-color: #e22d0e;
     text-align: center;
-    height: 33rem;
+    height: 30rem;
 }
 h3 {
     font-family: "Montserrat", sans-serif;
